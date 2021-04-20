@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\Domain.deps.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Generics\" />
+    <Folder Include="Interfaces\InterfaceProduct\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\.editorconfig" />
+    <None Include="bin\Debug\netcoreapp3.1\Domain.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Domain.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+</Project>
